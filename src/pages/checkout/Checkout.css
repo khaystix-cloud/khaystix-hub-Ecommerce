@@ -1,0 +1,38 @@
+.Checkout {
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  background-color: #f6a5c0;
+  height: max-content;
+  min-width: 240px;
+}
+
+.CheckoutAds {
+  width: 100%;
+}
+
+.CheckoutTitle {
+  margin-right: 10px;
+  padding: 5px;
+  border-bottom: 2px solid lightgray;
+}
+
+@media (min-width: 500px) {
+  .Checkout {
+    display: flex;
+    padding: 15px;
+    background-color: #f6a5c0;
+    height: max-content;
+  }
+  
+  .CheckoutAds {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .CheckoutTitle {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 2px solid lightgray;
+  }
+}

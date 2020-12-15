@@ -1,0 +1,81 @@
+.Navbar {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #005f56;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .Logo {
+    width: 100px;
+    height: 70px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 0px;
+  }
+  
+  .NavbarSearch {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+    background-color: #ccc;
+  }
+  
+  .NavbarSearchInput {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    background-color: #ccc;
+  }
+  
+  .NavbarSearchIcon {
+    padding: 5px;
+    height: 22px !important;
+    background-color: #f6a5c0;
+  }
+  
+  .NavOptions {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .NavOptionsMenu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+  }
+
+  .MenuA {
+    font-size: 10px;
+  }
+  
+  .MenuB {
+    font-size: 13px;
+    font-weight: 800;
+  }
+  
+  .NavOptionsCart {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .NavCartCount {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+    font-weight: 800;
+  }
+
+  @media (max-width: 499px) {
+    .DesktopOnly {
+      display: none;
+    }
+  }
+ 
